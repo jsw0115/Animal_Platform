@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="gray">#707070</color>
+    <color name="white">#FFFFFF</color>
+    <color name="Nam_01_back">#00509D</color>
+    <color name="Nam_02">#003F88</color>
+    <color name="Nam_03">#00296B</color>
+    <color name="purple_500">#FDC500</color>
+    <color name="Yellow">#FFD500</color>
+    <color name="purple_200">#FDC500</color>
+    <color name="purple_700">#FDC500</color>
+    <color name="teal_200">#FDC500</color>
+    <color name="teal_700">#FDC500</color>
+</resources>
