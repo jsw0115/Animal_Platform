@@ -100,7 +100,8 @@
                     android:text="아이디"
                     android:textColor="@color/white"
                     android:textStyle="bold"
-                    android:textSize="20dp"/>   // IdText
+                    android:textSize="20dp"
+                    android:layout_gravity="center"/>   // IdText
 
                 <TextView
                     android:id="@+id/IdEditText"

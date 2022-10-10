@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "634613001723",
+    "project_id": "animalplatform-483d6",
+    "storage_bucket": "animalplatform-483d6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:634613001723:android:ec2a900c14b8c3016a2f5e",
+        "android_client_info": {
+          "package_name": "org.tchtown.animal_platform"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "634613001723-p9si94jca58sgrqon234uchepc0ol5sf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCl9mKO4sUJUxUEbPDzTIgsEpW1qiH-eNo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "634613001723-p9si94jca58sgrqon234uchepc0ol5sf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

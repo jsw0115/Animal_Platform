@@ -1,3 +1,5 @@
+//* settings.gradle 내용 지움
+// 2022-10-10 PM4:14
 pluginManagement {
     repositories {
         gradlePluginPortal()
@@ -14,3 +16,10 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Animal_Platform"
 include ':app'
+
+
+//*
+//2022-10-10 PM 4 firebase SDK추가
+
+//2022-10-10 PM 4 firebase SDK추가
+//*/
