@@ -9,21 +9,30 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class FirstActivity extends AppCompatActivity {
+    Button LoginButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_first);
 
-        TextView LoginButton = (TextView) findViewById(R.id.LoginButton);
+        final Button LoginButton = (Button) findViewById(R.id.LoginButton);
         LoginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(),LoginActivity.class);
-                startActivity(intent);
+                Intent loginintent = new Intent(FirstActivity.this,LoginActivity.class);
+                FirstActivity.this.startActivity(loginintent);
             }
 
+        });
 
+        final Button RegisterButton = (Button) findViewById(R.id.RegisterButton);
+        RegisterButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent registerintent = new Intent(FirstActivity.this,RegisterActivity.class);
+                FirstActivity.this.startActivity(registerintent);
+            }
         });
     }
 

@@ -61,6 +61,7 @@
 
                 <TextView
                     android:id="@+id/NameText"
+                    android:fontFamily="@font/noto_sans"
                     android:layout_width="80dp"
                     android:layout_height="wrap_content"
                     android:text="이름"
@@ -78,7 +79,8 @@
                     android:inputType="textPersonName"
                     android:minHeight="48dp"
                     android:paddingLeft="10dp"
-                    android:text="이름"
+                    android:hint="이름"
+                    android:textColorHint="@color/gray"
                     android:textSize="20dp"
                     android:layout_marginLeft="10dp"/>
                 // NameEditText
@@ -94,6 +96,7 @@
 
                 <TextView
                     android:id="@+id/SexText"
+                    android:fontFamily="@font/noto_sans"
                     android:layout_width="80dp"
                     android:layout_height="wrap_content"
                     android:text="성별"
@@ -108,6 +111,7 @@
 
                     <RadioButton
                         android:id="@+id/MaleradioButton"
+                        android:fontFamily="@font/noto_sans"
                         android:layout_width="135dp"
                         android:layout_height="wrap_content"
                         android:textColor="@color/white"
@@ -117,6 +121,7 @@
 
                     <RadioButton
                         android:id="@+id/FemaleradioButton"
+                        android:fontFamily="@font/noto_sans"
                         android:layout_width="135dp"
                         android:layout_height="wrap_content"
                         android:textColor="@color/white"
@@ -138,28 +143,35 @@
 
                 <TextView
                     android:id="@+id/IdText"
+                    android:fontFamily="@font/noto_sans"
                     android:layout_width="80dp"
                     android:layout_height="wrap_content"
                     android:text="아이디"
                     android:textColor="@color/white"
                     android:textStyle="bold"
-                    android:textSize="20dp"/>   // IdText
+                    android:textSize="20dp"/>
+                // IdText
+
+                // IdEditText
 
                 <EditText
                     android:id="@+id/IdEditText"
                     android:layout_width="160dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@color/white"
                     android:ems="10"
+                    android:fontFamily="@font/noto_sans"
                     android:inputType="textPersonName"
                     android:minHeight="48dp"
-                    android:text="아이디"
-                    android:background="@color/white"
-                    android:textSize="20dp"
                     android:paddingLeft="10dp"
-                    android:layout_marginLeft="10dp"/>   // IdEditText
+                    android:hint="아이디"
+                    android:textColorHint="@color/gray"
+                    android:textSize="20dp" />
 
                 <Button
                     android:layout_width="90dp"
+                    android:fontFamily="@font/noto_sans"
                     android:layout_height="wrap_content"
                     android:text="중복확인"
                     android:textSize="14dp"
@@ -180,6 +192,7 @@
 
                 <TextView
                     android:id="@+id/PasswordText"
+                    android:fontFamily="@font/noto_sans"
                     android:layout_width="80dp"
                     android:layout_height="wrap_content"
                     android:text="비밀번호"
@@ -189,6 +202,7 @@
 
                 <EditText
                     android:id="@+id/editPasswordText"
+                    android:fontFamily="@font/noto_sans"
                     android:layout_width="260dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
@@ -196,7 +210,8 @@
                     android:background="@color/white"
                     android:minHeight="48dp"
                     android:paddingLeft="10dp"
-                    android:text="비밀번호"
+                    android:hint="비밀번호"
+                    android:textColorHint="@color/gray"
                     android:textSize="20dp"
                     android:layout_marginLeft="10dp"/>      // editPasswordText
 
@@ -211,6 +226,7 @@
 
                 <TextView
                     android:id="@+id/CheckPasswordText"
+                    android:fontFamily="@font/noto_sans"
                     android:layout_width="80dp"
                     android:layout_height="wrap_content"
                     android:text="재확인"
@@ -221,6 +237,7 @@
 
                 <EditText
                     android:id="@+id/CheckEditPasswordText"
+                    android:fontFamily="@font/noto_sans"
                     android:layout_width="260dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
@@ -228,7 +245,8 @@
                     android:background="@color/white"
                     android:minHeight="48dp"
                     android:paddingLeft="10dp"
-                    android:text="비밀번호"
+                    android:hint="비밀번호 재확인"
+                    android:textColorHint="@color/gray"
                     android:textSize="20dp"
                     android:layout_marginLeft="10dp"/>
                 // CheckEditPasswordText
@@ -245,6 +263,7 @@
 
                 <TextView
                     android:id="@+id/TelText"
+                    android:fontFamily="@font/noto_sans"
                     android:layout_width="80dp"
                     android:layout_height="wrap_content"
                     android:text="전화번호"
@@ -255,6 +274,7 @@
 
                 <EditText
                     android:id="@+id/telEditTextPhone"
+                    android:fontFamily="@font/noto_sans"
                     android:layout_width="160dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -263,34 +283,40 @@
                     android:background="@color/white"
                     android:minHeight="48dp"
                     android:paddingLeft="10dp"
-                    android:text="전화번호"
+                    android:hint="전화번호"
+                    android:textColorHint="@color/gray"
                     android:textSize="20dp"
+                    android:paddingRight="10dp"
                     android:layout_marginLeft="10dp"/>
                 // telTextPhone
 
                 <Button
                     android:id="@+id/TelCheckButton"
+                    android:fontFamily="@font/noto_sans"
                     android:layout_width="90dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:shadowColor="@color/white"
                     android:text="인증하기"
+                    android:textColor="@color/black"
                     android:textSize="14dp"
                     android:textStyle="bold"
-                    android:textColor="@color/black"
-                    android:shadowColor="@color/white"
-                    android:layout_marginLeft="10dp"/>
+                    />
                 // TelCheckButton
 
             </LinearLayout>     // TelLayout
 
             <LinearLayout
                 android:id="@+id/NumberCheckLayout"
-                android:layout_width="wrap_content"
+                android:fontFamily="@font/noto_sans"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:layout_marginTop="20dp">
 
                 <TextView
                     android:id="@+id/NumberText"
+                    android:fontFamily="@font/noto_sans"
                     android:layout_width="80dp"
                     android:layout_height="wrap_content"
                     android:text="인증번호"
@@ -301,13 +327,15 @@
 
                 <EditText
                     android:id="@+id/NumberCheckText"
+                    android:fontFamily="@font/noto_sans"
                     android:layout_width="160dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
                     android:inputType="number"
                     android:minHeight="48dp"
-                    android:text="인증번호"
+                    android:hint="인증번호"
+                    android:textColorHint="@color/gray"
                     android:background="@color/white"
                     android:textSize="20dp"
                     android:paddingLeft="10dp"
@@ -316,6 +344,7 @@
 
                 <Button
                     android:id="@+id/NumberCheckButton"
+                    android:fontFamily="@font/noto_sans"
                     android:layout_width="90dp"
                     android:layout_height="wrap_content"
                     android:text="인증하기"
@@ -339,6 +368,7 @@
 
                 <TextView
                     android:id="@+id/EmailText"
+                    android:fontFamily="@font/noto_sans"
                     android:layout_width="80dp"
                     android:layout_height="wrap_content"
                     android:text="이메일"
@@ -349,6 +379,7 @@
 
                 <EditText
                     android:id="@+id/EmailEditText"
+                    android:fontFamily="@font/noto_sans"
                     android:layout_width="260dp"
                     android:layout_height="wrap_content"
                     android:background="@color/white"
@@ -357,7 +388,8 @@
                     android:inputType="textEmailAddress"
                     android:minHeight="48dp"
                     android:paddingLeft="10dp"
-                    android:text="이메일"
+                    android:hint="이메일"
+                    android:textColorHint="@color/gray"
                     android:textSize="20dp"
                     android:layout_marginLeft="10dp"/>
                 // EmailEditText
@@ -376,6 +408,7 @@
 
                 <Button
                     android:id="@+id/registerButton"
+                    android:fontFamily="@font/noto_sans"
                     android:layout_width="match_parent"
                     android:layout_height="48dp"
                     android:layout_gravity="center"
@@ -386,8 +419,20 @@
                     android:textSize="20dp"
                     android:textStyle="bold" />
 
+                <TextView
+                    android:id="@+id/ToLoginButton"
+                    android:fontFamily="@font/noto_sans"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="로그인화면으로"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"/>
 
-            </LinearLayout>     // RetisterButtonLayout
+
+            </LinearLayout>     // RegisterButtonLayout
 
         </LinearLayout>
 

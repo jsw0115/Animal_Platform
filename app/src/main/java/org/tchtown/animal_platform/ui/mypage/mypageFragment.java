@@ -1,4 +1,4 @@
-package org.tchtown.animal_platform.ui.MyPage;
+package org.tchtown.animal_platform.ui.mypage;
 // NotificationsFragment
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -6,26 +6,28 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
 import org.tchtown.animal_platform.databinding.FragmentMypageBinding;
+import org.tchtown.animal_platform.databinding.FragmentMypageBinding;
 
-public class MyPageFragment extends Fragment {
+public class mypageFragment extends Fragment {
 
     private FragmentMypageBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        MyPageViewModel notificationsViewModel =
-                new ViewModelProvider(this).get(MyPageViewModel.class);
+        mypageViewModel notificationsViewModel =
+                new ViewModelProvider(this).get(mypageViewModel.class);
 
         binding = FragmentMypageBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textNotifications;
-        notificationsViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+//        final TextView textView = binding.textmypage;
+//        notificationsViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
 

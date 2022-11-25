@@ -54,7 +54,7 @@ public class SplashscreenActivity extends AppCompatActivity {
                         waited += 100;
                     }
                     Intent intent = new Intent(SplashscreenActivity.this,
-                            MainActivity.class);
+                            org.tchtown.animal_platform.FirstActivity.class);
                     intent.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                     startActivity(intent);
                     SplashscreenActivity.this.finish();

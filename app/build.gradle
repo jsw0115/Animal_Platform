@@ -3,7 +3,7 @@ plugins {
 
     //2022-10-10 PM 4 firebase SDK추가
     // Add the Google services Gradle plugin
-    /////////// id 'com.google.gms.google-services'
+    id 'com.google.gms.google-services'
 }
 
 android {
@@ -43,18 +43,19 @@ dependencies {
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1'
     implementation 'androidx.navigation:navigation-fragment:2.5.2'
     implementation 'androidx.navigation:navigation-ui:2.5.2'
+    implementation 'com.google.firebase:firebase-firestore:23.0.2'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
     //2022-10-10 PM 4 firebase SDK추가
     // Import the Firebase BoM
-    /////////////////implementation platform('com.google.firebase:firebase-bom:30.4.1')
+//    implementation platform('com.google.firebase:firebase-bom:30.4.1')
 
 
     // TODO: Add the dependencies for Firebase products you want to use
     // When using the BoM, don't specify versions in Firebase dependencies
-    /////////implementation 'com.google.firebase:firebase-analytics'
+//    implementation 'com.google.firebase:firebase-analytics'
 
 
     // Add the dependencies for any other desired Firebase products
