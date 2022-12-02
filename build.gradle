@@ -5,6 +5,12 @@ buildscript{
     dependencies{
          classpath 'com.google.gms:google-services:4.3.13'
     }
+    // 추가 2022.12.01
+    repositories {
+        // Make sure that you have the following two repositories
+        google()  // Google's Maven repository
+        mavenCentral()  // Maven Central repository
+    }
 }
 
 //2022-10-10 PM 4 firebase SDK추가
@@ -13,7 +19,8 @@ buildscript{
 plugins {
     id 'com.android.application' version '7.2.1' apply false
     id 'com.android.library' version '7.2.1' apply false
-
+    // Add the Google services Gradle plugin
+    // id 'com.google.gms.google-services'
 }
 
 
@@ -22,15 +29,14 @@ task clean(type: Delete) {
 }
 
 //2022-10-10 PM 4 firebase SDK추가
-/*
-    allprojects {
-        repositories {
+//*
+allprojects {
+    repositories {
         // Make sure that you have the following two repositories
-        google()  // Google's Maven repository
-
-        mavenCentral()  // Maven Central repository
+//        google()  // Google's Maven repository
+//        mavenCentral()  // Maven Central repository
 
     }
 }
-*/
+//*/
 //2022-10-10 PM 4 firebase SDK추가

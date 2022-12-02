@@ -227,68 +227,12 @@
                     android:layout_marginLeft="10dp"/>
                 // telTextPhone
 
-                <Button
-                    android:id="@+id/TelCheckButton"
-                    android:layout_width="90dp"
-                    android:layout_height="wrap_content"
-                    android:text="인증하기"
-                    android:textSize="14dp"
-                    android:textStyle="bold"
-                    android:textColor="@color/black"
-                    android:shadowColor="@color/white"
-                    android:layout_marginLeft="10dp"/>
-                // TelCheckButton
+
 
 
             </LinearLayout>     // TelLayout
 
-            <LinearLayout
-                android:id="@+id/NumberCheckLayout"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginTop="10dp">
 
-                <TextView
-                    android:id="@+id/NumberText"
-                    android:layout_width="80dp"
-                    android:layout_height="wrap_content"
-                    android:text="인증번호"
-                    android:textColor="@color/white"
-                    android:textStyle="bold"
-                    android:textSize="20dp"/>
-                // NumberText
-
-                <EditText
-                    android:id="@+id/NumberCheckText"
-                    android:layout_width="160dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:ems="10"
-                    android:inputType="number"
-                    android:minHeight="40dp"
-                    android:text="인증번호"
-                    android:background="@color/white"
-                    android:textSize="20dp"
-                    android:paddingLeft="10dp"
-                    android:layout_marginLeft="10dp"/>
-                // NumberCheckText
-
-                <Button
-                    android:id="@+id/NumberCheckButton"
-                    android:layout_width="90dp"
-                    android:layout_height="wrap_content"
-                    android:text="인증확인"
-                    android:textSize="14dp"
-                    android:textStyle="bold"
-                    android:textColor="@color/black"
-                    android:shadowColor="@color/white"
-                    android:layout_marginLeft="10dp"/>
-                // NumberCheckButton
-                // 팝업창 떠서 인증번호가 맞는지 틀린지 확인
-
-
-            </LinearLayout>     // NumberCheckLayout
 
             <LinearLayout
                 android:id="@+id/EmailLayout"
@@ -346,14 +290,6 @@
                     android:textSize="20dp"
                     android:textStyle="bold" />
                 // ChangeButton
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textStyle="bold"
-                    android:text="로그인 화면"
-                    android:textColor="@color/white"
-                    android:layout_marginTop="10dp"/>
 
             </LinearLayout>
             // ChangeButtonLayout

@@ -50,13 +50,13 @@ dependencies {
 
     //2022-10-10 PM 4 firebase SDK추가
     // Import the Firebase BoM
-//    implementation platform('com.google.firebase:firebase-bom:30.4.1')
-
+    implementation platform('com.google.firebase:firebase-bom:31.1.0')
 
     // TODO: Add the dependencies for Firebase products you want to use
     // When using the BoM, don't specify versions in Firebase dependencies
-//    implementation 'com.google.firebase:firebase-analytics'
-
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.google.firebase:firebase-auth:21.1.0'
+    implementation 'com.google.firebase:firebase-firestore'
 
     // Add the dependencies for any other desired Firebase products
     // https://firebase.google.com/docs/android/setup#available-libraries
